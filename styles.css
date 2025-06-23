@@ -199,6 +199,10 @@ footer{
 }
 /* responsive design */
 @media (max-width:600px){
+
+    .d-block{
+        width:50 px;
+    }
     h1{
         font-size: 1rem;
     }
