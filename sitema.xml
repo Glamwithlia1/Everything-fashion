@@ -2,45 +2,45 @@
 <urlset  xmins="http://sitemaps.org/schemaps/sitemap/0.9">
 <urlse>
 <loc>https://username.github.io/</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
 <url>
 <loc>https://username.github.io/</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://username.github.io/ppc.</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 
 <loc>https://username.github.io/contact.html</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 <loc>https://username.github.io/contact.html</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <loc>https://username.github.io/fashion.</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://username.github.fashion trends/</loc>
-<lasmod>2024-10-15</lasmod>
+<lastmod>2024-10-15</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
