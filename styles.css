@@ -197,6 +197,12 @@ footer{
     padding: 1.5rem;
     margin-top: 2rem;
 }
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
 /* responsive design */
 @media (max-width:600px){
 
@@ -270,6 +276,7 @@ footer{
         align-items: center;
     }
 }
+
 
 
 
