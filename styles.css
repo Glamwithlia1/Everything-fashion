@@ -259,10 +259,6 @@ footer{
 
 /* responsive design */
 @media (max-width:728px){
-
-    .d-block{
-        width:50 px;
-    }
     h1{
         font-size: 2rem;
     }
@@ -275,10 +271,7 @@ footer{
     }
 }
 
-.d-block{
-   width: 1000px;
-   height: 900px;
-}
+
 
 
 
