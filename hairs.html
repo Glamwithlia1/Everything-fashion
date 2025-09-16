@@ -1,14 +1,24 @@
 <html lang="en">
  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q662K6WWRN"></script>
+
+  <!-- Google tag (gtag.js) -->
 <script>
+
+function loadAnalytics(){
+  var gtascript=document.createElement("script")
+  gtaScript.src="https://www.googletagmanager.com/gtag/js?id=G-Q662K6WWRN"
+  gtaScript.async-true;
+  document.head.appendChild(gtascript);
+
+  gtaScript.onload=function() {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-Q662K6WWRN');
+ } 
+}  
 </script>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -180,6 +190,7 @@
   
  
   
+
 
 
 
