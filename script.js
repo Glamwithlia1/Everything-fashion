@@ -55,12 +55,15 @@ function declineCookies() {
 
     }
    
-    // on page load,check pas choice
+    // on page load,check past choice
     window.onload=function() {
 
         if(this.localStorage.getItem("cookiesAccepted")==="true"){
             loadAnalytics();
+          document.getElementById("cookie-banner").style.display ="none"; 
+          
            }else if(localStorage.getItem("cookiesAccepted")=="false"){
             document.getElementById("cookie-banner").style.display ="none";
            }
         }
+
