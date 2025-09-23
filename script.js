@@ -1,4 +1,5 @@
-//form submission
+
+  //form submission
 document.getElementById("lead-form")
 .addEventListener("submit",function(e) {
     e.preventDefault();
@@ -17,7 +18,9 @@ alert("Thank you for your interest! We will contact you shortly with our fashion
 // Reset form
 this.reset()
 
-})
+}
+)
+
 // show popup after 5 seconds 
 setTimeout(function (){
 document.getElementById("email-popup").style.display="flex"
@@ -35,4 +38,29 @@ document.getElementById("email-popup").addEventListener("click",function(e){
         this.style.display="none";
     }
 });
+
+
+// ==============================> Cookies <======================================
  
+    function acceptCookies() {
+    document.getElementById("cookie-banner").style.display="none";
+    localStorage.setItem("cookiesAccepted", "true")
+    localkAnalytics();//GA4
+    }
+   
+
+function declineCookies() {
+    document.getElementById("cookie-banner").style.display="none";
+    localStorage.setItem("cookiesAccepted", "false")
+
+    }
+   
+    // on page load,check pas choice
+    window.onload=function() {
+
+        if(this.localStorage.getItem("cookiesAccepted")==="true"){
+            loadAnalytics();
+           }else if(localStorage.getItem("cookiesAccepted")=="false"){
+            document.getElementById("cookie-banner").style.display ="none";
+           }
+        }
