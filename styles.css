@@ -269,22 +269,7 @@ footer{
     transform: translateY(-3px);
 }
 
- /* toggle */
- .btn {
-    display: inline-block;
-    background: var(--primary);
-    color: white;
-    padding: 12px 28px;
-    border-radius: 30p0x;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s;
-    border: none;
-    cursor: poiunter;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
- }
+
 
  .btn:hover {
     background: var(--secondary);
@@ -355,6 +340,7 @@ img{
         align-items: center;
     }
 }
+
 
 
 
