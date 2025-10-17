@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Glam with Lia — Everything Fashion Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent: #d19ba5;
+      --accent-dark: #b07d87;
+      --muted: #555;
+      --radius: 14px;
+    }
+    body{
+      font-family: 'Inter', sans-serif;
+      background: #fffafc;
+      color: #1a1a1a;
+      line-height: 1.6;
+      margin: 0;
+    }
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 40px;
+      background:#fff;
+      box-shadow:0 2px 10px rgba(0,0,0,0.05);
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+    .logo{
+      font-family:"Playfair Display",serif;
+      font-size:26px;
+      font-weight:600;
+      color:var(--accent-dark);
+      text-decoration:none;
+    }
+    nav a{
+      margin-left:20px;
+      text-decoration:none;
+      color:var(--muted);
+      font-weight:600;
+    }
+    nav a:hover{color:var(--accent-dark);}
+    .about-hero{
+      background:url('images/fashion2.webp') center/cover no-repeat;
+      color:white;
+      text-align:center;
+      padding:120px 20px;
+      background-attachment:fixed;
+      position:relative;
+    }
+    .about-hero::after{
+      content:"";
+      position:absolute;
+      top:0;left:0;right:0;bottom:0;
+      background:rgba(0,0,0,0.5);
+    }
+    .about-hero h1{
+      position:relative;
+      font-family:"Playfair Display",serif;
+      font-size:48px;
+      z-index:2;
+    }
+    .about-section{
+      padding:80px 40px;
+      max-width:1100px;
+      margin:auto;
+    }
+    .about-section h2{
+      font-family:"Playfair Display",serif;
+      color:var(--accent-dark);
+      font-size:36px;
+      margin-bottom:20px;
+      text-align:center;
+    }
+    .about-section p{
+      color:var(--muted);
+      font-size:17px;
+      margin-bottom:20px;
+      text-align:center;
+    }
+    .values{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:50px;
+    }
+    .value-card{
+      background:white;
+      padding:30px;
+      border-radius:var(--radius);
+      box-shadow:0 4px 14px rgba(0,0,0,0.08);
+      text-align:center;
+    }
+    .value-card h3{
+      font-family:"Playfair Display",serif;
+      color:var(--accent-dark);
+      margin-bottom:10px;
+    }
+
+    /* Founder Section */
+    .founder{
+      background:#fff;
+      padding:80px 40px;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
+      gap:40px;
+    }
+    .founder img{
+      width:320px;
+      height:380px;
+      object-fit:cover;
+      border-radius:var(--radius);
+      box-shadow:0 6px 18px rgba(0,0,0,0.1);
+    }
+    .founder-info{
+      max-width:500px;
+    }
+    .founder-info h2{
+      font-family:"Playfair Display",serif;
+      color:var(--accent-dark);
+      font-size:34px;
+      margin-bottom:15px;
+    }
+    .founder-info h4{
+      color:var(--muted);
+      margin-bottom:20px;
+      font-weight:500;
+    }
+    .founder-info p{
+      color:#444;
+      line-height:1.7;
+      font-size:16px;
+    }
+    footer{
+      background:#fdf3f6;
+      padding:30px;
+      text-align:center;
+      color:var(--muted);
+      margin-top:60px;
+      font-size:14px;
+    }
+
+    @media(max-width:768px){
+      .founder{flex-direction:column;}
+      .founder img{width:90%;height:auto;}
+      .founder-info{text-align:center;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Glam with Lia</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <h1>About Glam with Lia</h1>
+  </section>
+
+  <section class="about-section">
+    <h2>Everything Fashion Hub</h2>
+    <p>
+      <strong>Glam with Lia</strong> is your one-stop fashion destination — where style meets confidence.
+      We specialize in trendy <b>dresses</b>, elegant <b>accessories</b>, classy <b>heels & shoes</b>, and glamorous <b>hair</b> pieces.
+      Our goal is to empower women and fashion lovers everywhere to express their beauty, confidence, and creativity through their unique sense of style.
+    </p>
+
+    <p>
+      From timeless elegance to modern chic, we curate high-quality, affordable pieces that make every outfit stand out. 
+      Whether you're dressing for a casual day, a night out, or a special occasion, Glam with Lia helps you stay effortlessly fashionable.
+    </p>
+
+    <div class="values">
+      <div class="value-card">
+        <h3>Our Vision</h3>
+        <p>To become the most trusted fashion hub known for redefining beauty, style, and confidence across Africa and beyond.</p>
+      </div>
+      <div class="value-card">
+        <h3>Our Mission</h3>
+        <p>To provide high-quality fashion essentials — from dresses and accessories to hair and shoes — that inspire confidence and self-expression.</p>
+      </div>
+      <div class="value-card">
+        <h3>Our Promise</h3>
+        <p>We bring you carefully curated collections that blend comfort, elegance, and glamour — because every woman deserves to feel beautiful.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Founder Section -->
+  <section class="founder">
+    <img src="images/founder.jpg" alt="Founder of Glam with Lia">
+    <div class="founder-info">
+      <h2>Meet Lia</h2>
+      <h4>Founder & Creative Director</h4>
+      <p>
+        Lia is a passionate fashion lover with a bold vision — to redefine everyday style and make confidence wearable. 
+        Her love for design and eye for detail inspired the creation of <strong>Glam with Lia</strong>, 
+        a brand built to help people look and feel their best no matter the occasion.
+      </p>
+      <p>
+        Through Glam with Lia, she combines creativity and authenticity, offering affordable luxury that celebrates individuality, 
+        elegance, and self-expression. Every collection reflects her belief that fashion is not just about what you wear — it’s about how it makes you feel.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Glam with Lia — Fashion • Accessories • Hair • Shoes. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
