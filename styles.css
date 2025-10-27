@@ -1,5 +1,17 @@
-  
-    :root{
+:root {
+  --accent: #d4af37; /* or your chosen color*/
+  --accent-dark: #a17c27;
+  --muted: #fdf3f6;
+   
+:root{
+      --bg: #dbd9da;
+      --text: #1a1a1a;
+      --accent: #d19ba5; /* soft rose gold */
+      --accent-dark: #b07d87;
+      --muted: #666;
+      --radius: 14px;
+    }
+:root{
     --primary-color: #2c3e50;
     --secondary-color: #3498db; 
     --accent-color: #e74c3c;
@@ -10,14 +22,7 @@
     
 }
  
-    :root{
-      --bg: #dbd9da;
-      --text: #1a1a1a;
-      --accent: #d19ba5; /* soft rose gold */
-      --accent-dark: #b07d87;
-      --muted: #666;
-      --radius: 14px;
-    }
+    
 *{
    margin:0;
    padding: 0;
@@ -686,6 +691,7 @@ img{
         align-items: center;
     }
 }
+
 
 
 
