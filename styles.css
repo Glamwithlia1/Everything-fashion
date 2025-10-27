@@ -290,8 +290,9 @@ margin-right: 500px;
   footer i {
     color: var(--accent);
     font-size: 24px;
-    margin: 0 10px
-    transition: color 0.3s
+    margin: 0 10px;
+    transition: color 0.3s;
+    display: inline-block;
   }
    footer i: hover {
      color: var(--accent-dark);
@@ -701,6 +702,7 @@ img{
         align-items: center;
     }
 }
+
 
 
 
