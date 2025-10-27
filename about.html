@@ -6,7 +6,14 @@
   <title>About Us | Glam with Lia — Everything Fashion Hub</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
+ 
+
+  <!----- Socials --------->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- CSS -->
+ <link rel="stylesheet" href="styles.css">
+ <style>
     :root{
       --accent: #d19ba5;
       --accent-dark: #b07d87;
@@ -26,7 +33,7 @@
       align-items:center;
       padding:20px 40px;
       background:#fff;
-      box-shadow:0 2px 10px rgba(0,0,0,0.05);
+      box-shadow:0 2px 10px rgba(241, 236, 236, 0.884);
       position:sticky;
       top:0;
       z-index:1000;
@@ -41,12 +48,12 @@
     nav a{
       margin-left:20px;
       text-decoration:none;
-      color:var(--muted);
+      color:var(--accent);
       font-weight:600;
     }
     nav a:hover{color:var(--accent-dark);}
     .about-hero{
-      background:url('images/fashion2.webp') center/cover no-repeat;
+      background:url('images/fash.jpg') center/cover no-repeat;
       color:white;
       text-align:center;
       padding:120px 20px;
@@ -57,7 +64,7 @@
       content:"";
       position:absolute;
       top:0;left:0;right:0;bottom:0;
-      background:rgba(0,0,0,0.5);
+      background:rgba(0, 0, 0, 0.5);
     }
     .about-hero h1{
       position:relative;
@@ -70,6 +77,7 @@
       max-width:1100px;
       margin:auto;
     }
+    
     .about-section h2{
       font-family:"Playfair Display",serif;
       color:var(--accent-dark);
@@ -138,6 +146,7 @@
       line-height:1.7;
       font-size:16px;
     }
+    
     footer{
       background:#fdf3f6;
       padding:30px;
@@ -146,6 +155,7 @@
       margin-top:60px;
       font-size:14px;
     }
+    
 
     @media(max-width:768px){
       .founder{flex-direction:column;}
@@ -216,9 +226,44 @@
     </div>
   </section>
 
-  <footer>
-    <p>&copy; <span id="year"></span> Glam with Lia — Fashion • Accessories • Hair • Shoes. All Rights Reserved.</p>
-  </footer>
+  <!------- Footer ---------->
+ <footer>
+<div class="container">
+  <div class="footer-content">
+  <div class="footer-section">
+    <h3>  Glam with Lia </h3>
+    <p>Everything Fashion Hub</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=61579270684726"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/glam_withlia?igsh=MTlkdjJ6MjExc2xneA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/glamwithlia157?s=21"><i class="fab fa-twitter"></i></a>
+      <a href="http://wa.me/233256868180"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</div>
+ 
+<div class="footer-section">
+  <h3> Contact Info</h3>
+  <p><i class="fas fa-map-marker-alt"></i> Accra, Ghana</p>
+  <p><i class="fas fa-phone"></i>+233 256-868-180</p>
+  <p><i class="fas fa-envelope"></i> glamwithlia157@gmail.com </p>
+  
+</div>
+
+<div class="footer-section">
+  <h3> Hours</h3>
+  <p> Monday-Saturday:10am - 6pm </p>
+  <p> Sunday: Closed </p>
+  
+  </div>
+  </div>
+
+  <hr class="footer-line">
+  <div class="year">
+  <p>&copy; <span id="year"></span> Glam with Lia — Fashion. Accessories. Hair. Shoes. All Rights Reserved . </p>
+   
+  </div>
+</div>
+  
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
